@@ -426,6 +426,11 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 /* -- mobile nav -- */
 
 @media only screen and (max-width: 767px) {
+
+    .home-mobile-header {
+        margin-top: 10px;
+        font-size: 20px;
+    }
     #nav {
         padding: 0px 0px;
     }
