@@ -1501,7 +1501,10 @@ header {
 \*------------------------------------*/
 
 
-@media only screen and (max-width: 991px) {}
+@media only screen and (max-width: 991px) {
+
+
+}
 
 @media only screen and (max-width: 767px) {
   .section-header h2.title {
@@ -1760,4 +1763,15 @@ header {
 /*custom css*/
 .text-dark {
     color:#868F9B;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .home-wrapper {
+        font-size: 10px!important;
+    }
+
+    .img-thumbnail {
+        max-width: 30%;
+    }
 }
